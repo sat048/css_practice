@@ -14,18 +14,20 @@ h1{
 
 h2{
     font-size: 30px;
-    color: #0D0D0D;
+    color: #C4C4C4;
 }
 
 p{
     font-size: 24px;
     padding-top: 10px;
     padding-left: 10px;
+    color: #707070;
 }
 
 img{
     width: 250px;
-    align-content: center;
+    display: block;
+    margin: auto;
     border: 10px;
     border-color: white;
     border-style: dashed;
@@ -40,4 +42,57 @@ div{
     border: 3px;
     border-style: solid;
     border-color: white;
+}
+
+.introduction{
+    border-radius: 15px;
+    margin-top: 15px;
+    line-height: 2;
+}
+
+.red{
+    background-color: #ff0000;
+    text-align: right;
+    margin-left: 50px;
+    border-bottom: 2px;
+    border-left: 5px;
+}
+
+.blue{
+    background-color: #0000FF;
+    text-align: left;
+    margin-right: 50px;
+    border-right: 5px;
+    border-top: 2px;
+}
+
+.yellow{
+    background-color: #FFFF00;
+    text-align: right;
+    margin-left: 50px;
+    border-bottom: 2px;
+    border-left: 5px;
+}
+
+.green{
+    background-color: #00EB00;
+    text-align: left;
+    margin-right: 50px;
+    border-right: 5px;
+    border-top: 2px;
+}
+
+footer{
+    background: linear-gradient(#000000, #0000ff 25%, #0066ff 70%, #000000 100%);
+    border: 5px;
+    border-style: solid;
+    border-color: white;
+}
+
+footer p{
+    text-align: right;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
 }
